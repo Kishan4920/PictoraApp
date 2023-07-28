@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C844578C3367BBC6E203B42 /* Pods_Pictora_PictoraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBFB2DA44D2B9862A4EAA84 /* Pods_Pictora_PictoraUITests.framework */; };
+		8A4AF2F52A7179CF003949DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AF2F42A7179CF003949DE /* AppDelegate.swift */; };
+		8A4AF2F72A7179CF003949DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AF2F62A7179CF003949DE /* SceneDelegate.swift */; };
+		8A4AF2F92A7179CF003949DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AF2F82A7179CF003949DE /* ViewController.swift */; };
+		8A4AF2FC2A7179CF003949DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4AF2FA2A7179CF003949DE /* Main.storyboard */; };
+		8A4AF2FE2A7179D1003949DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4AF2FD2A7179D1003949DE /* Assets.xcassets */; };
+		8A4AF3012A7179D1003949DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4AF2FF2A7179D1003949DE /* LaunchScreen.storyboard */; };
+		8A4AF30C2A7179D1003949DE /* PictoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AF30B2A7179D1003949DE /* PictoraTests.swift */; };
+		8A4AF3162A7179D1003949DE /* PictoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AF3152A7179D1003949DE /* PictoraUITests.swift */; };
+		8A4AF3182A7179D1003949DE /* PictoraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AF3172A7179D1003949DE /* PictoraUITestsLaunchTests.swift */; };
+		8A4AF3252A718BA9003949DE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AF3242A718BA9003949DE /* SecondViewController.swift */; };
+		8A4AF32B2A72C779003949DE /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AF32A2A72C779003949DE /* ApiManager.swift */; };
+		8A4AF32D2A72C9B0003949DE /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AF32C2A72C9B0003949DE /* AppConstant.swift */; };
+		8A4AF3322A72CB2F003949DE /* HomePhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AF3312A72CB2F003949DE /* HomePhotosCollectionViewCell.swift */; };
+		8A4AF3342A72E44A003949DE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AF3332A72E44A003949DE /* ProfileViewController.swift */; };
+		8A4AF3362A72E45A003949DE /* SavedImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AF3352A72E45A003949DE /* SavedImagesViewController.swift */; };
+		8A4AF3382A73578E003949DE /* SavedPhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AF3372A73578E003949DE /* SavedPhotosCollectionViewCell.swift */; };
+		8A4AF33A2A7377E2003949DE /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AF3392A7377E2003949DE /* ImageViewController.swift */; };
+		A0B649BA5BE838F48A6C3C5E /* Pods_Pictora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B0A3BFE295B4C1FC6047A06 /* Pods_Pictora.framework */; };
+		F2EC972B2CE11A89BC1DC3A0 /* Pods_PictoraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C598B413307842949DD65B /* Pods_PictoraTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A4AF3082A7179D1003949DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A4AF2E92A7179CF003949DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A4AF2F02A7179CF003949DE;
+			remoteInfo = Pictora;
+		};
+		8A4AF3122A7179D1003949DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A4AF2E92A7179CF003949DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A4AF2F02A7179CF003949DE;
+			remoteInfo = Pictora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22E558D4A171BA142FDF75D5 /* Pods-PictoraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictoraTests.debug.xcconfig"; path = "Target Support Files/Pods-PictoraTests/Pods-PictoraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B01D6028F0E19FB0A307BD0 /* Pods-Pictora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pictora.release.xcconfig"; path = "Target Support Files/Pods-Pictora/Pods-Pictora.release.xcconfig"; sourceTree = "<group>"; };
+		3D1EB8E39CFC63BDB3096D17 /* Pods-Pictora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pictora.debug.xcconfig"; path = "Target Support Files/Pods-Pictora/Pods-Pictora.debug.xcconfig"; sourceTree = "<group>"; };
+		485019610FD5FFFABDD5B122 /* Pods-Pictora-PictoraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pictora-PictoraUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pictora-PictoraUITests/Pods-Pictora-PictoraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B0A3BFE295B4C1FC6047A06 /* Pods_Pictora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pictora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D78F186F992857158E9ECEA /* Pods-Pictora-PictoraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pictora-PictoraUITests.release.xcconfig"; path = "Target Support Files/Pods-Pictora-PictoraUITests/Pods-Pictora-PictoraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5DBFB2DA44D2B9862A4EAA84 /* Pods_Pictora_PictoraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pictora_PictoraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C598B413307842949DD65B /* Pods_PictoraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PictoraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77FE50840D3EA2AA8807F145 /* Pods-PictoraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictoraTests.release.xcconfig"; path = "Target Support Files/Pods-PictoraTests/Pods-PictoraTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A4AF2F12A7179CF003949DE /* Pictora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pictora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A4AF2F42A7179CF003949DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A4AF2F62A7179CF003949DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8A4AF2F82A7179CF003949DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A4AF2FB2A7179CF003949DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A4AF2FD2A7179D1003949DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A4AF3002A7179D1003949DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A4AF3022A7179D1003949DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A4AF3072A7179D1003949DE /* PictoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A4AF30B2A7179D1003949DE /* PictoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictoraTests.swift; sourceTree = "<group>"; };
+		8A4AF3112A7179D1003949DE /* PictoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A4AF3152A7179D1003949DE /* PictoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictoraUITests.swift; sourceTree = "<group>"; };
+		8A4AF3172A7179D1003949DE /* PictoraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictoraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8A4AF3242A718BA9003949DE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8A4AF32A2A72C779003949DE /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		8A4AF32C2A72C9B0003949DE /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		8A4AF3312A72CB2F003949DE /* HomePhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		8A4AF3332A72E44A003949DE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8A4AF3352A72E45A003949DE /* SavedImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedImagesViewController.swift; sourceTree = "<group>"; };
+		8A4AF3372A73578E003949DE /* SavedPhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		8A4AF3392A7377E2003949DE /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A4AF2EE2A7179CF003949DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B649BA5BE838F48A6C3C5E /* Pods_Pictora.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4AF3042A7179D1003949DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EC972B2CE11A89BC1DC3A0 /* Pods_PictoraTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4AF30E2A7179D1003949DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C844578C3367BBC6E203B42 /* Pods_Pictora_PictoraUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A4AF2E82A7179CF003949DE = {
+			isa = PBXGroup;
+			children = (
+				8A4AF2F32A7179CF003949DE /* Pictora */,
+				8A4AF30A2A7179D1003949DE /* PictoraTests */,
+				8A4AF3142A7179D1003949DE /* PictoraUITests */,
+				8A4AF2F22A7179CF003949DE /* Products */,
+				D5A20A26F1D0BDDB1E7B048B /* Pods */,
+				CF3D0E4A87188E87F5A784AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A4AF2F22A7179CF003949DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A4AF2F12A7179CF003949DE /* Pictora.app */,
+				8A4AF3072A7179D1003949DE /* PictoraTests.xctest */,
+				8A4AF3112A7179D1003949DE /* PictoraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A4AF2F32A7179CF003949DE /* Pictora */ = {
+			isa = PBXGroup;
+			children = (
+				8A4AF32E2A72CAE4003949DE /* Controller */,
+				8A4AF3292A72C75F003949DE /* Constant */,
+				8A4AF3282A72BC9E003949DE /* Resources */,
+				8A4AF3272A72BC86003949DE /* Storyboard */,
+				8A4AF2F42A7179CF003949DE /* AppDelegate.swift */,
+				8A4AF2F62A7179CF003949DE /* SceneDelegate.swift */,
+				8A4AF3022A7179D1003949DE /* Info.plist */,
+			);
+			path = Pictora;
+			sourceTree = "<group>";
+		};
+		8A4AF30A2A7179D1003949DE /* PictoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A4AF30B2A7179D1003949DE /* PictoraTests.swift */,
+			);
+			path = PictoraTests;
+			sourceTree = "<group>";
+		};
+		8A4AF3142A7179D1003949DE /* PictoraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A4AF3152A7179D1003949DE /* PictoraUITests.swift */,
+				8A4AF3172A7179D1003949DE /* PictoraUITestsLaunchTests.swift */,
+			);
+			path = PictoraUITests;
+			sourceTree = "<group>";
+		};
+		8A4AF3262A72BC6C003949DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A4AF3242A718BA9003949DE /* SecondViewController.swift */,
+				8A4AF2F82A7179CF003949DE /* ViewController.swift */,
+				8A4AF3332A72E44A003949DE /* ProfileViewController.swift */,
+				8A4AF3352A72E45A003949DE /* SavedImagesViewController.swift */,
+				8A4AF3392A7377E2003949DE /* ImageViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4AF3272A72BC86003949DE /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8A4AF2FF2A7179D1003949DE /* LaunchScreen.storyboard */,
+				8A4AF2FA2A7179CF003949DE /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		8A4AF3282A72BC9E003949DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A4AF2FD2A7179D1003949DE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8A4AF3292A72C75F003949DE /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				8A4AF32A2A72C779003949DE /* ApiManager.swift */,
+				8A4AF32C2A72C9B0003949DE /* AppConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		8A4AF32E2A72CAE4003949DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4AF3302A72CAF9003949DE /* CollectionViewCell */,
+				8A4AF3262A72BC6C003949DE /* View */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4AF3302A72CAF9003949DE /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8A4AF3312A72CB2F003949DE /* HomePhotosCollectionViewCell.swift */,
+				8A4AF3372A73578E003949DE /* SavedPhotosCollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		CF3D0E4A87188E87F5A784AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B0A3BFE295B4C1FC6047A06 /* Pods_Pictora.framework */,
+				5DBFB2DA44D2B9862A4EAA84 /* Pods_Pictora_PictoraUITests.framework */,
+				70C598B413307842949DD65B /* Pods_PictoraTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5A20A26F1D0BDDB1E7B048B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D1EB8E39CFC63BDB3096D17 /* Pods-Pictora.debug.xcconfig */,
+				3B01D6028F0E19FB0A307BD0 /* Pods-Pictora.release.xcconfig */,
+				485019610FD5FFFABDD5B122 /* Pods-Pictora-PictoraUITests.debug.xcconfig */,
+				4D78F186F992857158E9ECEA /* Pods-Pictora-PictoraUITests.release.xcconfig */,
+				22E558D4A171BA142FDF75D5 /* Pods-PictoraTests.debug.xcconfig */,
+				77FE50840D3EA2AA8807F145 /* Pods-PictoraTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A4AF2F02A7179CF003949DE /* Pictora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A4AF31B2A7179D1003949DE /* Build configuration list for PBXNativeTarget "Pictora" */;
+			buildPhases = (
+				39A27C652C2994B9131C2031 /* [CP] Check Pods Manifest.lock */,
+				8A4AF2ED2A7179CF003949DE /* Sources */,
+				8A4AF2EE2A7179CF003949DE /* Frameworks */,
+				8A4AF2EF2A7179CF003949DE /* Resources */,
+				DD7DD31B726ED5ADC1BE486A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pictora;
+			productName = Pictora;
+			productReference = 8A4AF2F12A7179CF003949DE /* Pictora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A4AF3062A7179D1003949DE /* PictoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A4AF31E2A7179D1003949DE /* Build configuration list for PBXNativeTarget "PictoraTests" */;
+			buildPhases = (
+				998E10B0019504AA35A7676C /* [CP] Check Pods Manifest.lock */,
+				8A4AF3032A7179D1003949DE /* Sources */,
+				8A4AF3042A7179D1003949DE /* Frameworks */,
+				8A4AF3052A7179D1003949DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A4AF3092A7179D1003949DE /* PBXTargetDependency */,
+			);
+			name = PictoraTests;
+			productName = PictoraTests;
+			productReference = 8A4AF3072A7179D1003949DE /* PictoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A4AF3102A7179D1003949DE /* PictoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A4AF3212A7179D1003949DE /* Build configuration list for PBXNativeTarget "PictoraUITests" */;
+			buildPhases = (
+				AFE25EEFC3438B2C9F1F8477 /* [CP] Check Pods Manifest.lock */,
+				8A4AF30D2A7179D1003949DE /* Sources */,
+				8A4AF30E2A7179D1003949DE /* Frameworks */,
+				8A4AF30F2A7179D1003949DE /* Resources */,
+				B061F15157A4AD7E50BEC836 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A4AF3132A7179D1003949DE /* PBXTargetDependency */,
+			);
+			name = PictoraUITests;
+			productName = PictoraUITests;
+			productReference = 8A4AF3112A7179D1003949DE /* PictoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A4AF2E92A7179CF003949DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8A4AF2F02A7179CF003949DE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8A4AF3062A7179D1003949DE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8A4AF2F02A7179CF003949DE;
+					};
+					8A4AF3102A7179D1003949DE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8A4AF2F02A7179CF003949DE;
+					};
+				};
+			};
+			buildConfigurationList = 8A4AF2EC2A7179CF003949DE /* Build configuration list for PBXProject "Pictora" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A4AF2E82A7179CF003949DE;
+			productRefGroup = 8A4AF2F22A7179CF003949DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A4AF2F02A7179CF003949DE /* Pictora */,
+				8A4AF3062A7179D1003949DE /* PictoraTests */,
+				8A4AF3102A7179D1003949DE /* PictoraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A4AF2EF2A7179CF003949DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4AF3012A7179D1003949DE /* LaunchScreen.storyboard in Resources */,
+				8A4AF2FE2A7179D1003949DE /* Assets.xcassets in Resources */,
+				8A4AF2FC2A7179CF003949DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4AF3052A7179D1003949DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4AF30F2A7179D1003949DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39A27C652C2994B9131C2031 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pictora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		998E10B0019504AA35A7676C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PictoraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFE25EEFC3438B2C9F1F8477 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pictora-PictoraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B061F15157A4AD7E50BEC836 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pictora-PictoraUITests/Pods-Pictora-PictoraUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pictora-PictoraUITests/Pods-Pictora-PictoraUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pictora-PictoraUITests/Pods-Pictora-PictoraUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD7DD31B726ED5ADC1BE486A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pictora/Pods-Pictora-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pictora/Pods-Pictora-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pictora/Pods-Pictora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A4AF2ED2A7179CF003949DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4AF3252A718BA9003949DE /* SecondViewController.swift in Sources */,
+				8A4AF2F92A7179CF003949DE /* ViewController.swift in Sources */,
+				8A4AF32B2A72C779003949DE /* ApiManager.swift in Sources */,
+				8A4AF32D2A72C9B0003949DE /* AppConstant.swift in Sources */,
+				8A4AF3362A72E45A003949DE /* SavedImagesViewController.swift in Sources */,
+				8A4AF2F52A7179CF003949DE /* AppDelegate.swift in Sources */,
+				8A4AF2F72A7179CF003949DE /* SceneDelegate.swift in Sources */,
+				8A4AF3342A72E44A003949DE /* ProfileViewController.swift in Sources */,
+				8A4AF3322A72CB2F003949DE /* HomePhotosCollectionViewCell.swift in Sources */,
+				8A4AF33A2A7377E2003949DE /* ImageViewController.swift in Sources */,
+				8A4AF3382A73578E003949DE /* SavedPhotosCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4AF3032A7179D1003949DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4AF30C2A7179D1003949DE /* PictoraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4AF30D2A7179D1003949DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4AF3162A7179D1003949DE /* PictoraUITests.swift in Sources */,
+				8A4AF3182A7179D1003949DE /* PictoraUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A4AF3092A7179D1003949DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A4AF2F02A7179CF003949DE /* Pictora */;
+			targetProxy = 8A4AF3082A7179D1003949DE /* PBXContainerItemProxy */;
+		};
+		8A4AF3132A7179D1003949DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A4AF2F02A7179CF003949DE /* Pictora */;
+			targetProxy = 8A4AF3122A7179D1003949DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A4AF2FA2A7179CF003949DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A4AF2FB2A7179CF003949DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A4AF2FF2A7179D1003949DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A4AF3002A7179D1003949DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A4AF3192A7179D1003949DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A4AF31A2A7179D1003949DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A4AF31C2A7179D1003949DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1EB8E39CFC63BDB3096D17 /* Pods-Pictora.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pictora/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pictora;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pictora.Pictora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A4AF31D2A7179D1003949DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B01D6028F0E19FB0A307BD0 /* Pods-Pictora.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pictora/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pictora;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pictora.Pictora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A4AF31F2A7179D1003949DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22E558D4A171BA142FDF75D5 /* Pods-PictoraTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pictora.PictoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pictora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pictora";
+			};
+			name = Debug;
+		};
+		8A4AF3202A7179D1003949DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77FE50840D3EA2AA8807F145 /* Pods-PictoraTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pictora.PictoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pictora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pictora";
+			};
+			name = Release;
+		};
+		8A4AF3222A7179D1003949DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485019610FD5FFFABDD5B122 /* Pods-Pictora-PictoraUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pictora.PictoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pictora;
+			};
+			name = Debug;
+		};
+		8A4AF3232A7179D1003949DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D78F186F992857158E9ECEA /* Pods-Pictora-PictoraUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pictora.PictoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pictora;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A4AF2EC2A7179CF003949DE /* Build configuration list for PBXProject "Pictora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4AF3192A7179D1003949DE /* Debug */,
+				8A4AF31A2A7179D1003949DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A4AF31B2A7179D1003949DE /* Build configuration list for PBXNativeTarget "Pictora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4AF31C2A7179D1003949DE /* Debug */,
+				8A4AF31D2A7179D1003949DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A4AF31E2A7179D1003949DE /* Build configuration list for PBXNativeTarget "PictoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4AF31F2A7179D1003949DE /* Debug */,
+				8A4AF3202A7179D1003949DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A4AF3212A7179D1003949DE /* Build configuration list for PBXNativeTarget "PictoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4AF3222A7179D1003949DE /* Debug */,
+				8A4AF3232A7179D1003949DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A4AF2E92A7179CF003949DE /* Project object */;
+}

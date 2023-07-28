@@ -1,0 +1,6 @@
+framework module Pods_Pictora {
+  umbrella header "Pods-Pictora-umbrella.h"
+
+  export *
+  module * { export * }
+}
